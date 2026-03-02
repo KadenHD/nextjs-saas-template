@@ -39,3 +39,13 @@ services:
       - ./data/openinary-public:/app/apps/api/public
       - ./data/openinary-db:/app/data
     restart: unless-stopped
+
+  mailpit:
+    image: axllent/mailpit
+    container_name: mailpit
+    ports:
+      - 8025:8025 # UI
+      - 1025:1025 # SMTP
+    volumes:
+      - ./data/mailpit-data:/data
+    restart: unless-stopped

@@ -51,7 +51,7 @@ TODO
 - **Database**: [Prisma](https://www.prisma.io/) + [PostgreSQL](https://www.postgresql.org/) (with [adminer](https://github.com/jeliebig/Adminer-Autologin) local-only supervision)
 - **File Storage**: [Openinary](https://openinary.dev/), a self-hostable alternative to [Cloudinary](https://cloudinary.com/)
 - **Payments**: [Stripe](https://stripe.com/)
-- **Email**: [Nodemailer](https://nodemailer.com/)
+- **Email**: [Nodemailer](https://nodemailer.com/) (with [mailpit](https://mailpit.axllent.org/docs/install/docker/) local-only server and supervision)
 - **Authentication**: [NextAuth.js](https://next-auth.js.org/)
 
 ## Contributing
