@@ -5,8 +5,6 @@ A production-ready SaaS starter kit built with [Next.js](https://nextjs.org/) to
 It also includes a [FastAPI](https://fastapi.tiangolo.com/) backend to securely execute your SaaS business logic and allow access to your product data only if the API key is valid.
 > You can replace the backend with whatever suit to you.
 
----
-
 ## Features
 
 - **🔐 Authentication** - Email/password, OAuth (Google, GitHub), magic links
@@ -20,8 +18,6 @@ It also includes a [FastAPI](https://fastapi.tiangolo.com/) backend to securely 
 - **🚀 Deployment Ready** - Optimized for Vercel or any Node.js host
 - **⚙️ API Routes & Server Actions** - Ready-to-use backend endpoints
 - **🧱 Environment Config** - .env template for easy setup
-
----
 
 ## Getting Started
 
@@ -44,13 +40,9 @@ TODO
 
 TODO
 
----
-
 ## Deployment
 
 TODO
-
----
 
 ## Tech Stack
 
@@ -65,8 +57,6 @@ TODO
 ## Contributing
 
 Contributions are welcome! Feel free to submit issues or pull requests for improvements.
-
----
 
 ## License
 
