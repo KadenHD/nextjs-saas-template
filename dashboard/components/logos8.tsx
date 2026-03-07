@@ -23,11 +23,6 @@ const Logos8 = ({
       className: "h-7 w-auto",
     },
     {
-      name: "Astro",
-      logo: "https://deifkwefumgah.cloudfront.net/shadcnblocks/block/logos/tailwind-wordmark.svg",
-      className: "h-5 w-auto",
-    },
-    {
       name: "Supabase",
       logo: "https://deifkwefumgah.cloudfront.net/shadcnblocks/block/logos/supabase-wordmark.svg",
       className: "h-6 w-auto",
@@ -59,7 +54,7 @@ const Logos8 = ({
                 alt={`${logo.name} logo`}
                 width={109}
                 height={48}
-                className={logo.className}
+                className={`${logo.className} dark:invert`}
               />
             ))}
           </div>
