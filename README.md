@@ -21,6 +21,17 @@ It also includes a [FastAPI](https://fastapi.tiangolo.com/) backend to securely 
 
 ## Getting Started
 
+### 0. Prerequisites
+
+Make sure you have the following installed:
+
+- [Git](https://git-scm.com/)
+- [GNU Make](https://www.gnu.org/software/make/)
+- [Python](https://www.python.org/) 3.12+
+- [Node.js](https://nodejs.org/)  22.14+
+- [Docker](https://www.docker.com/)
+- [Docker Compose](https://docs.docker.com/compose/)
+
 ### 1. Clone the repository
 
 ```bash
@@ -30,19 +41,89 @@ cd nextjs-saas-template
 
 ### 2. Install dependencies
 
-TODO
+#### Backend
+
+Create a Python virtual environment and install dependencies.
+
+```bash
+cd backend
+python -m venv .venv
+source .venv/bin/activate 2>/dev/null || source .venv/Scripts/activate
+pip install -r requirements.txt
+```
+
+#### Dashboard
+
+Install Node dependencies.
+
+```bash
+cd dashboard
+npm install
+```
 
 ### 3. Configure environment
 
-TODO
+Create your `.env` file from the example template.
+
+```bash
+cp .env.example .env
+```
+
+Copy it to both services:
+
+```bash
+cp .env backend/.env
+cp .env dashboard/.env.local
+```
 
 ### 4. Run the development server
 
-TODO
+Start required services using Docker.
+
+```bash
+docker compose up -d
+```
+
+#### Run Backend
+
+```bash
+cd backend
+source .venv/bin/activate 2>/dev/null || source .venv/Scripts/activate
+make dev
+```
+
+The API will be available on: <http://localhost:5001>
+
+#### Run Dashboard
+
+```bash
+cd dashboard
+npm run dev
+```
+
+The Dashboard will be available on: <http://localhost:5000>
 
 ## Deployment
 
-TODO
+### Deploy Backend
+
+```bash
+cd backend
+source .venv/bin/activate 2>/dev/null || source .venv/Scripts/activate
+make prod
+```
+
+The API will be available on: <http://localhost:5001>
+
+### Deploy Dashboard
+
+```bash
+cd dashboard
+npm run build
+npm run start
+```
+
+The Dashboard will be available on: <http://localhost:5000>
 
 ## Tech Stack
 
