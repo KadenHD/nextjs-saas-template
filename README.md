@@ -128,7 +128,7 @@ The Dashboard will be available on: <http://localhost:5000>
 ## Tech Stack
 
 - **Framework**: [Next.js](https://nextjs.org/) and [FastAPI](https://fastapi.tiangolo.com/)
-- **Styling**: [Tailwind CSS](https://tailwindcss.com/) / [ShadCN UI](https://ui.shadcn.com/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/) / [ShadCN UI](https://ui.shadcn.com/) (using [Shadcnblocks](https://www.shadcnblocks.com/) & [Radix UI](https://www.radix-ui.com/))
 - **Database**: [Prisma](https://www.prisma.io/) + [PostgreSQL](https://www.postgresql.org/) (with [adminer](https://github.com/jeliebig/Adminer-Autologin) local-only supervision)
 - **File Storage**: [Openinary](https://openinary.dev/), a self-hostable alternative to [Cloudinary](https://cloudinary.com/)
 - **Payments**: [Stripe](https://stripe.com/)
