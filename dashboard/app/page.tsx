@@ -1,4 +1,5 @@
 import { CodeExample1 } from "@/components/code-example1"
+import { Cta0 } from "@/components/cta0"
 import { Cta10 } from "@/components/cta10"
 import { Faq1 } from "@/components/faq1"
 import { Feature13 } from "@/components/feature13"
@@ -20,6 +21,7 @@ export default function LandingPage() {
     <Faq1 />
     <Cta10 />
     <Stats8 />
+    <Cta0 />
   </div>
   )
 }
