@@ -74,7 +74,7 @@ const Feature13 = ({
               className="flex flex-col justify-between rounded-lg bg-muted"
             >
               <div className="flex justify-between gap-10 border-b">
-                <div className="flex flex-col justify-between justify-start gap-8 py-6 pl-4 md:gap-14 md:py-10 md:pl-8 lg:justify-normal">
+                <div className="flex flex-col justify-between gap-8 py-6 pl-4 md:gap-14 md:py-10 md:pl-8 lg:justify-normal">
                   <span className="font-mono text-xs text-muted-foreground">
                     {feature.label}
                   </span>
