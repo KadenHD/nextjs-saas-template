@@ -133,7 +133,7 @@ The Dashboard will be available on: <http://localhost:5000>
 - **File Storage**: [Openinary](https://openinary.dev/), a self-hostable alternative to [Cloudinary](https://cloudinary.com/)
 - **Payments**: [Stripe](https://stripe.com/)
 - **Email**: [Nodemailer](https://nodemailer.com/) (with [mailpit](https://mailpit.axllent.org/docs/install/docker/) local-only server and supervision)
-- **Authentication**: [NextAuth.js](https://next-auth.js.org/)
+- **Authentication**: [Better-Auth](https://better-auth.com/)
 
 ## Contributing
 
